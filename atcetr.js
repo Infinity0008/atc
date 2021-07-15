@@ -1,7 +1,7 @@
 (async () => {
     const urlMatch = location.href.match(/^https:\/\/www.amd.com\/.{2}\/direct-buy\/(\d{10})?/);
     if (urlMatch == null) {
-        const err = 'You must run this script from www.AMD.com.\nThe script will make the add to cart button appear.';
+        const err = 'You must run this script from www.AMD.com.\nThe script will make the add to cart button appear.\nJoin EtherealNotify.';
         alert(err);
         throw new Error(err);
     }
